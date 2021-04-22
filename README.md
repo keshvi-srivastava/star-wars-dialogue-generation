@@ -4,8 +4,10 @@ The project aims to implement a Text Generation model to generate dialogue texts
 
 1. Data - Orginal star wars scripts
 2. Filtered Data - Filtered scripts for the above three characters
-3. Models - Five different models tested for obtaining highest accuracy
+3. Python Notebooks - 
                      
+      ~ Read the original data files (kaggle .txt files and IMSDB HTML links)
+      
       ~ Basic word sequence input neural network
                      
       ~ Sliding Window LSTM
@@ -15,7 +17,9 @@ The project aims to implement a Text Generation model to generate dialogue texts
       ~ Sliding Window Bidirectional LSTM with GLOVE
                      
      ~ Sliding Window Bidirectional LSTM with GLOVE with returning sequence
-4. Results - Output text files
+     
+4. Final models - Contains the executable python notebook to run for each character for text generation and mood detection
+5. Results - Output text files (contains generated text and bleu score)
 
 ## Input Data:
 
@@ -24,7 +28,6 @@ Our data is derived from the Kaggle star wars script data and IMSDB scripts. The
 ~ https://imsdb.com/search.php
 
 ~ https://www.kaggle.com/xvivancos/star-wars-movie-scripts
-
 
 The scripts are filtered for characters and reformatted into a two-column Dataframe (character, dialogue). These filtered dataframes are stored in the "Filtered Data" folder.
 
@@ -39,13 +42,11 @@ The scripts are filtered for characters and reformatted into a two-column Datafr
 - The results are stored in the "Results" folder. The output is generated from selecting random input sequences from the training data itself. The model predicts the next best word to be added to the seed sentence. 
 - the output is stored in the following format:
   
+<Generated Final Sentences>
   
-  \#1
-  
-  Seed Sentence:
-  
-  Generated Final Sentence:
-  
-  ......
+ ....
+ 
+BLEU score for <character name> -> <value>
+
   
   
