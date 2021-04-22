@@ -8,3 +8,5 @@ of the emperor or suffer the force the dark side
 itappears to be but the force you are be with
 train yourself to let go it it is will be
 a fully trained jedi knight the deepest force become you
+
+BLEU score for yoda -> 0.5636460841171014

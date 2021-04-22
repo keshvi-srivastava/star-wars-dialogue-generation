@@ -8,3 +8,5 @@ has been rather a longtime on you master luke is
 get me onto one of those youre going to get
 oh my id forgotten how much i hate space travel
 wait oh dear artoo artoo artoo artoo you might to
+
+BLEU score for threepio -> 0.7684978670123553

@@ -8,3 +8,5 @@ brokenand dont forget shes apolitician theyre apolitician all betrusted over
 as well thats not all very proud that you two
 by rushing back prematurely i fear something back and you
 course but it was a good friend which reminds he
+
+BLEU score for ben -> 0.7051203366541631
