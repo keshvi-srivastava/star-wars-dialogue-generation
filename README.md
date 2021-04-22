@@ -39,13 +39,11 @@ The scripts are filtered for characters and reformatted into a two-column Datafr
 - The results are stored in the "Results" folder. The output is generated from selecting random input sequences from the training data itself. The model predicts the next best word to be added to the seed sentence. 
 - the output is stored in the following format:
   
+<Generated Final Sentences>
   
-  \#1
-  
-  Seed Sentence:
-  
-  Generated Final Sentence:
-  
-  ......
+ ....
+ 
+BLEU score for <character name> -> <value>
+
   
   
