@@ -31,6 +31,12 @@ Our data is derived from the Kaggle star wars script data and IMSDB scripts. The
 
 The scripts are filtered for characters and reformatted into a two-column Dataframe (character, dialogue). These filtered dataframes are stored in the "Filtered Data" folder.
 
+Obiwan (Ben)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Human	  :	583 dialogues
+
+Yoda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Alien  	:	168 dialogues
+
+C3-PO (Threepio)&nbsp;&nbsp;&nbsp;&nbsp;- Droid	  : 358 dialogues
+
 ## Running the Models:
 
 - The final model used is "Sliding Window Bidirectional LSTM with GLOVE with returning sequence" and can be accessed from the Models folder. It is preferred to use Google Colab for running the models using GPU (These computationally expensive models and will be slow on the local machine). 
