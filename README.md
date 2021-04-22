@@ -16,7 +16,7 @@ The project aims to implement a Text Generation model to generate dialogue texts
                      
       ~ Sliding Window Bidirectional LSTM with GLOVE
                      
-     ~ Sliding Window Bidirectional LSTM with GLOVE with returning sequence
+     ~ Sliding Window Bidirectional LSTM with GLOVE with return_sequence
      
 4. Final models - Contains the executable python notebook to run for each character for text generation and mood detection
 5. Results - Output text files (contains generated text and bleu score)
