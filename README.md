@@ -16,18 +16,24 @@ The project aims to implement a Text Generation model to generate dialogue texts
       ~ Sliding Window Bidirectional LSTM with GLOVE
                      
       ~ Sliding Window Bidirectional LSTM with GLOVE with return_sequence
-
-      ~ Mood detection ???
       
-6. Final notebooks - Contains the executable python notebook to run for text generation and mood detection
+6. Mood Detection - Contains the approach incorporated for Mood Detection for the generated sentences.
+      
+      ~ MoodDetection.R has the experiment code on different lexicon files considered for mood classification.
+      
+      ~ \<Character\>_final.csv have the moods of the sentences
+      
+      ~ PythonCode for Mood Classification has the notebook for running the classification analysis over sample data.
+      
+7. Final notebooks - Contains the executable python notebook to run for text generation and mood detection
               
       ~ Read_data.ipynb -> Read the original data files (kaggle .txt files and IMSDB HTML links)
       
       ~ Text_Generation_Model.ipynb -> Generate dialogues
       
-      ~ Mood detection ??
+      ~ Mood_Classification.ipynb -> Classifies the generated sentences and seed words into different moods and checks the accuracy.
       
-7. Results - Output text files (contains generated dialogues with bleu score and mood detected for dialogues)
+8. Results - Output text files (contains generated dialogues with bleu score and mood detected for dialogues)
 
 ## Input Data:
 
@@ -50,7 +56,7 @@ C3-PO (Threepio)&nbsp;&nbsp;&nbsp;&nbsp;- Droid	  : 358 dialogues
 - To generate the data, run the Read_data.ipynb. It requires the data from 'Original Kaggle Data' folder and access to HTML links. Detailed comments added to the notebook.
 - The final model used is "Sliding Window Bidirectional LSTM with GLOVE with return_sequence" and can be accessed from the 'Final notebooks' folder. It is preferred to use Google Colab for running the models using GPU (These computationally expensive models and will be slow on the local machine). 
 - The models are written in python notebooks (.ipynb) and simply require a run of all the cells.
-- To test for mood detection run _____________________________________. \<To be filled\>
+- To test for mood detection run Mood_Classification.ipynb. This file takes the input of NRC.csv which is present in the Final notebooks folder and the generated sentence files from Results folder. The output for each of the file is saved into GenSen_Mood_Check folder with three different files.
 - Each notebook also contains comments to help navigate and understand what is happening in each cell.
 
 ## Results:
@@ -64,6 +70,9 @@ C3-PO (Threepio)&nbsp;&nbsp;&nbsp;&nbsp;- Droid	  : 358 dialogues
  
 BLEU score for \<character name\> \-\> \<value\>
 
-- The output for mood detection ________________ \<To be filled\>
-  
-  
+- The output for mood detection is stored into the GenSen_Mood_Check folder in the Final notebooks folder with three different files. The accuracy score is displayed at the end of the notebook file.
+- The output is stored in the following format:
+\<Generated Final Sentences\>,\<Sentence Mood\>,\<Seed Words>,\<Seed Words Mood>
+
+....
+
