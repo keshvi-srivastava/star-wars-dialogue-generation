@@ -45,7 +45,7 @@ Yoda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 
 C3-PO (Threepio)&nbsp;&nbsp;&nbsp;&nbsp;- Droid	  : 358 dialogues
 
-## Running the Models:
+## Running the Final Model Notebooks:
 
 - To generate the data, run the Read_data.ipynb. It requires the data from 'Original Kaggle Data' folder and access to HTML links. Detailed comments added to the notebook.
 - The final model used is "Sliding Window Bidirectional LSTM with GLOVE with return_sequence" and can be accessed from the 'Final notebooks' folder. It is preferred to use Google Colab for running the models using GPU (These computationally expensive models and will be slow on the local machine). 
