@@ -72,6 +72,7 @@ BLEU score for \<character name\> \-\> \<value\>
 
 - The output for mood detection is stored into the GenSen_Mood_Check folder in the Final notebooks folder with three different files. The accuracy score is displayed at the end of the notebook file.
 - The output is stored in the following format:
+
 \<Generated Final Sentences\>,\<Sentence Mood\>,\<Seed Words>,\<Seed Words Mood>
 
 ....
