@@ -1,5 +1,10 @@
 # Star Wars Dialogue Generation
 
+## Project Members:
+Keshvi Srivastava
+Varunya Yanamadala
+
+## Introduction
 The project aims to implement a Text Generation model to generate dialogue texts of different Star Wars characters given a seed sentence. The model intends to generate text for characters - Obi-wan Kenobi (Human interpretable sentences), Yoda(Reverse grammar sentences) and C3PO(Droid like sentences). The folder structure for the project is as below:
 
 1. Original Kaggle Data - Original .txt files from kaggle
