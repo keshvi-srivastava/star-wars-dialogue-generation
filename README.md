@@ -1,5 +1,11 @@
 # Star Wars Dialogue Generation
 
+## Project Members:
+Keshvi Srivastava
+
+Varunya Yanamadala
+
+## Introduction
 The project aims to implement a Text Generation model to generate dialogue texts of different Star Wars characters given a seed sentence. The model intends to generate text for characters - Obi-wan Kenobi (Human interpretable sentences), Yoda(Reverse grammar sentences) and C3PO(Droid like sentences). The folder structure for the project is as below:
 
 1. Original Kaggle Data - Original .txt files from kaggle
@@ -56,7 +62,7 @@ C3-PO (Threepio)&nbsp;&nbsp;&nbsp;&nbsp;- Droid	  : 358 dialogues
 - To generate the data, run the Read_data.ipynb. It requires the data from 'Original Kaggle Data' folder and access to HTML links. Detailed comments added to the notebook.
 - The final model used is "Sliding Window Bidirectional LSTM with GLOVE with return_sequence" and can be accessed from the 'Final notebooks' folder. It is preferred to use Google Colab for running the models using GPU (These computationally expensive models and will be slow on the local machine). 
 - The models are written in python notebooks (.ipynb) and simply require a run of all the cells.
-- To test for mood detection run Mood_Classification.ipynb. This file takes the input of NRC.csv which is present in the Final notebooks folder and the generated sentence files from Results folder. The output for each of the file is saved into GenSen_Mood_Check folder with three different files.
+- To test for mood detection, run Mood_Classification.ipynb. This file takes the input of NRC.csv which is present in the Final notebooks folder and the generated sentence files from Results folder. The output for each of the file is saved into GenSen_Mood_Check folder with three different files.
 - Each notebook also contains comments to help navigate and understand what is happening in each cell.
 
 ## Results:
